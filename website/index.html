@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>AutoInstall - Windows 软件自动安装工具</title>
+  <meta name="description" content="AutoInstall 是一款 Windows 软件自动安装工具，支持批量静默安装、自定义安装路径，省去重复的手动安装操作。">
+  <link rel="icon" type="image/svg+xml" href="assets/icon.svg">
+  <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+
+  <header class="site-header">
+    <div class="container header-inner">
+      <a class="brand" href="#top">
+        <img src="assets/icon.svg" alt="AutoInstall" width="28" height="28">
+        <span>AutoInstall</span>
+      </a>
+      <nav class="site-nav">
+        <a href="#features">功能</a>
+        <a href="#download">下载</a>
+      </nav>
+    </div>
+  </header>
+
+  <main id="top">
+
+    <!-- Hero -->
+    <section class="hero">
+      <div class="container hero-inner">
+        <h1>Windows 软件<br>自动安装工具</h1>
+        <p class="hero-slogan">把重复交给机器，把时间还给自己</p>
+        <p class="hero-sub">把安装包放进文件夹，一键批量静默安装。<br>省去一个个点「下一步」的重复劳动。</p>
+        <div class="hero-actions">
+          <a class="btn-primary download-link" href="https://github.com/suais/AutoInstall/releases/latest/download/AutoInstall.exe" id="dlHero">下载 AutoInstall</a>
+        </div>
+        <div class="hero-meta">
+          <span id="verText">v1.0.0</span>
+          <span class="dot">·</span>
+          <span id="sizeText">45 MB</span>
+          <span class="dot">·</span>
+          <span>Windows 10 / 11</span>
+        </div>
+      </div>
+    </section>
+
+    <!-- Features -->
+    <section id="features" class="features">
+      <div class="container">
+        <h2 class="section-title">核心功能</h2>
+        <div class="grid">
+          <div class="card">
+            <div class="card-icon">∑</div>
+            <h3>批量静默安装</h3>
+            <p>自动识别 exe / msi / msix 安装包，按静默参数无人值守安装，一次处理整个文件夹。</p>
+          </div>
+          <div class="card">
+            <div class="card-icon">⌕</div>
+            <h3>搜索与勾选</h3>
+            <p>支持按名称快速搜索过滤，自由勾选需要安装的软件，黑白风格复选框一目了然。</p>
+          </div>
+          <div class="card">
+            <div class="card-icon">⇪</div>
+            <h3>自定义安装路径</h3>
+            <p>手动指定 Packages 文件夹与安装目录，选择会被记住，下次启动自动沿用。</p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Download -->
+    <section id="download" class="download">
+      <div class="container download-inner">
+        <div class="download-left">
+          <h2 class="section-title">下载</h2>
+          <p class="download-desc">AutoInstall 完全免费，绿色免安装，下载后直接运行即可使用。</p>
+          <ul class="download-list">
+            <li>版本：<strong id="verText2">v1.0.0</strong></li>
+            <li>大小：<strong id="sizeText2">45 MB</strong></li>
+            <li>系统：<strong>Windows 10 / 11（64 位）</strong></li>
+            <li>类型：<strong>单文件便携版</strong></li>
+          </ul>
+        </div>
+        <div class="download-right">
+          <a class="btn-primary btn-lg download-link" href="https://github.com/suais/AutoInstall/releases/latest/download/AutoInstall.exe" id="dlMain">下载 AutoInstall.exe</a>
+        </div>
+      </div>
+    </section>
+
+  </main>
+
+  <footer class="site-footer">
+    <div class="container footer-inner">
+      <span>© 2026 AutoInstall</span>
+      <span class="footer-links">
+        <a href="#features">功能</a>
+        <a href="#download">下载</a>
+      </span>
+    </div>
+  </footer>
+
+  <script src="js/main.js"></script>
+</body>
+</html>

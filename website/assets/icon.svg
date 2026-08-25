@@ -1,0 +1,9 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 256 256" width="256" height="256">
+  <!-- 背景圆角方块（小圆角，Vercel 风格） -->
+  <rect x="20" y="20" width="216" height="216" rx="26" fill="#1a1a1a"/>
+
+  <!-- 数学符号 Σ（求和）：顶边 + 对角线 + 底边 -->
+  <path d="M86 64 L168 64" stroke="#ffffff" stroke-width="14" stroke-linecap="round"/>
+  <path d="M86 64 L168 192" stroke="#ffffff" stroke-width="14" stroke-linecap="round"/>
+  <path d="M168 192 L86 192" stroke="#ffffff" stroke-width="14" stroke-linecap="round"/>
+</svg>
